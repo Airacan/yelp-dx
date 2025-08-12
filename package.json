@@ -1,0 +1,36 @@
+{
+  "name": "yelp-dx",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack serve --config webpack.config.cjs",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.cjs",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,json,md,css}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "cross-env": "^10.0.0",
+    "webpack": "^5.101.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
