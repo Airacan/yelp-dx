@@ -17,20 +17,28 @@ A **developer experience–optimized** React + Webpack starter template with bui
 ## 📦 Getting Started
 
 ### 1️⃣ Clone the repo
-```bash
+```
 git clone https://github.com/Airacan/yelp-dx.git
 cd yelp-dx
+```
 
 ### 2️⃣ Install dependencies
+```
 npm install
+```
 
 ### 3️⃣ Run tests
+```
 npm test
+```
 
 ### 4️⃣ Start the development server
+```
 npm run dev
+```
 
-🌍 Global Installation (Use as a Template Anywhere)
+### 🌍 Global Installation (Use as a Template Anywhere)
+```
 You can install this template globally to quickly scaffold new projects:
 
 npm install -g yelp-dx-init
@@ -43,9 +51,12 @@ cd my-project
 npm install
 npm test
 npm run dev
+```
 
 
-🛠 Technologies Used
+
+### 🛠 Technologies Used
+```
 React
 
 Webpack
@@ -57,6 +68,7 @@ Jest
 React Testing Library
 
 ESLint + Prettier
+```
 
 📜 License
 MIT License – feel free to use and modify.
